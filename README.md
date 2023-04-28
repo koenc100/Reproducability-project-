@@ -1,5 +1,6 @@
 # Reproducability-project 
-CS4240 Deep Learning (2022/23 Q3) Reproducability project code:
+
+Below, the necisarry instructions are provided to run the tests for the CS4240 Deep Learning (2022/23 Q3) Reproducability project. For further explanation on the dataset and the results, please visit the blog post, of which a PDF file is provided in the repository under the name 'Blog post'.
 
 Needed Libraries: 
 - OS (3.11.2)
