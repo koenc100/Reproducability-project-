@@ -4,7 +4,7 @@ CS4240 Deep Learning (2022/23 Q3) Reproducability project code:
 Needed Libraries: 
 - OS (3.11.2)
 - Numpy (1.11.2)
-- PIL (.)
+- PIL (2.0.1)
 - random 
 
 To make use of the new datasets follow the next steps:
@@ -24,10 +24,6 @@ To make use of the new datasets follow the next steps:
     		sail_to_graphs('./data/SAIL/motion_planning_datasets/', '<YOUR COPIED DATASET NAME>')
 ```
 -please check in train.py if the dataloader is defined in the function `train_graph_agent()` as follows:
+
 	`dataloaders = loader.get_cmu_data_loaders(args)…`
   
-To run the code, 
-- open the 
-- change the 'path' variable in the 'create_repository' function.
-- change parameters in 'if __name__ == __main__' loop. 
-- run the code and find your newly created directories on the specified location.
