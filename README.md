@@ -17,7 +17,7 @@ To make use of the new datasets follow the next steps:
   * for perlin noise: RUn 'perlin_noise(arg)'
 - This should generate png files in /data/SAIL/motion_planning_datasets/ 
 - From this folder copy the name of the newly generated dataset in dataloader.py in the function sail_to_graphs make sure the regimes are set to:
-	regimes = ['train', 'validation', 'test']
+`regimes = ['train', 'validation', 'test']`
 - In data_loader.py at the bottom, change the function call to be as follows:
 	if _name_ == "_main_":
     		sail_to_graphs('./data/SAIL/motion_planning_datasets/', '<YOUR COPIED DATASET NAME>')
